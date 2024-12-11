@@ -344,6 +344,7 @@ table {
 	justify-items: center;
 	align-items: center;
 	background-color: rgba(0, 128, 0, 0.5);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .block-image-content-1 {
@@ -840,6 +841,7 @@ table {
 }
 
 .pergunta {
+	cursor: pointer;
 	font-size: 18px;
 	background-color: #006400;
 	font-family: 'Sora Regular', sans-serif;
@@ -1022,3 +1024,95 @@ table {
 	color: white;
 	font-size: 18px;
 }
+
+.fade-in {
+	opacity: 0; /* Invisível inicialmente */
+	transition: opacity 2s ease; /* Suavidade */
+  }
+
+.fade-in-visible {
+	opacity: 1; /* Visível quando ativado */
+  }
+
+  .fade-in2 {
+	opacity: 0; /* Invisível inicialmente */
+	transform: translateY(100px);
+	transition: opacity 2s ease, transform 1.5s ease; /* Suavidade */
+  }
+
+.fade-in-visible2 {
+	opacity: 1; /* Visível quando ativado */
+	transform: translateY(0px);
+  }
+
+.fade-in3 {
+	opacity: 0; /* Invisível inicialmente */
+	transform: translateX(250px);
+	transition: opacity 2s ease, transform 1s ease; /* Suavidade */
+  }
+
+.fade-in-visible3 {
+	opacity: 1; /* Visível quando ativado */
+	transform: translateX(0px);
+  }
+
+.fade-in4 {
+	opacity: 0; /* Invisível inicialmente */
+	transform: translateY(-100px);
+	transition: opacity 2s ease, transform 2s ease; /* Suavidade */
+  }
+
+.fade-in-visible4 {
+	opacity: 1; /* Visível quando ativado */
+	transform: translateY(0px);
+  }
+  
+.display-none {
+	transition: opacity 2s ease, transform 2s ease; /* Suavidade */
+	opacity: 0; /* Invisível inicialmente */
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.display-visible {
+	transition: opacity 2s ease, transform 2s ease; /* Suavidade */
+	opacity: 1; /* Visível quando ativado */
+}
+
+.resposta {
+	color: white;
+}
+
+.fade-in5 {
+	opacity: 0; /* Invisível inicialmente */
+	transform: translateX(-40px);
+	transition: opacity 2s ease, transform 2s ease; /* Suavidade */
+  }
+
+.fade-in-visible5 {
+	opacity: 1; /* Visível quando ativado */
+	transform: translateX(0px);
+  }
+
+.fade-in6 {
+	opacity: 0; /* Invisível inicialmente */
+	transition: opacity 2s ease; /* Suavidade */
+  }
+
+.fade-in-visible6 {
+	opacity: 1; /* Visível quando ativado */
+	transform: translateX(0px);
+  }
+
+.fade-in7 {
+	opacity: 0; /* Invisível inicialmente */
+	transform: translateX(250px);
+	transition: opacity 2s ease, transform 1s ease; /* Suavidade */
+  }
+
+.fade-in-visible7 {
+	opacity: 1; /* Visível quando ativado */
+	transform: translateX(0px);
+  }
